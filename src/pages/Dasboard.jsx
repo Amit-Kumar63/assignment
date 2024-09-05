@@ -22,7 +22,7 @@ const Dasboard = () => {
     <main className='flex items-center justify-center px-28 min-h-screen bg-gradient-to-r from-[#373E44] to-[#191B1F] text-white font-poppins'>
       <div className='h-full w-full bg-black'></div> 
       <div className='h-full w-[770px]'>
-        <div className='bg-[#363C43] py-5 px-4 pr-6 overflow-hidden rounded-[18.89px] shadow-custom-2 flex gap-5'>
+        <div className='bg-[#363C43] py-5 px-4 pr-6 mb-9 overflow-hidden rounded-[18.89px] shadow-custom-2 flex gap-5'>
         <Sidebar />
         <div>
         <div className='bg-[#0A0A0A] p-[5px] pr-3 flex items-center justify-between rounded-[16px] shadow-inner-custom-1 h-fit'>
@@ -37,7 +37,8 @@ const Dasboard = () => {
         </div>
         <div className="relative after:absolute after:content-[' '] after:w-2 after:h-16 after:bg-custom-gradient after:shadow-custom-5 after:top-1/2 after:left-1/2 after:-translate-y-3/4"></div>
         </div>
-          <div className='bg-[#363C43] w-full mt-20 px-4 py-5 pt-7 overflow-hidden rounded-[18.89px] shadow-custom-2 flex gap-5'>
+        <div className="relative after:absolute after:content-[''] after:left-1/2 after:-translate-x-1/2 after:w-[530px] after:h-1 after:bg-[linear-gradient(180deg,rgba(40,40,40,0.1)_0%,rgba(248,248,248,0.1)_100%),linear-gradient(0deg,rgba(255,255,255,0.05),rgba(255,255,255,0.05))] shadow-[0px_4px_4px_0px_#00000054]"></div>
+          <div className='bg-[#363C43] w-full mt-20 px-4 py-5 pt-7 mb-9 overflow-hidden rounded-[18.89px] shadow-custom-2 flex gap-5'>
           <Sidebar />
           <div>
           <div className='flex items-center w-full justify-between'>
@@ -67,8 +68,11 @@ const Dasboard = () => {
           </div>
           </div>
         </div>
+        <div className="relative after:absolute after:content-[''] after:left-1/2 after:-translate-x-1/2 after:w-[530px] after:h-1 after:bg-[linear-gradient(180deg,rgba(40,40,40,0.1)_0%,rgba(248,248,248,0.1)_100%),linear-gradient(0deg,rgba(255,255,255,0.05),rgba(255,255,255,0.05))] shadow-[0px_4px_4px_0px_#00000054]"></div>
       </div>
     </main>
+
+    // Dear sir/mam , I don't need to use media query here. But I know how to use it.
   )
 }
 
